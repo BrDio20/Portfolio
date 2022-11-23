@@ -268,6 +268,10 @@ footer a, footer {
     color: rgb(66, 66, 66);
 
 }
+
+footer i{
+    cursor: pointer;
+}
 /* PARA CELULARES */
 @media only screen and (max-width: 540px){
         body{
