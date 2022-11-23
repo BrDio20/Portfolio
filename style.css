@@ -1,0 +1,426 @@
+body{
+ margin: 0;
+}
+
+main{
+    margin: 0px 15%;
+}
+
+/* Como o navegador vai dividir as divs */
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;   
+    grid-auto-columns: 1fr; /* 1fr = 1 frame */
+
+}
+
+
+#header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 87px;
+
+}
+
+
+/* Meunu e listas */
+#menu{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: right;
+    color: #070F18;
+    margin-top: 49px;
+}
+#menu ul{
+    /* Lista */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 87px;
+    
+
+}
+#menu li{
+    display: inline-block;
+    margin-left:20px;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+/* APRESENTATION */
+
+#headerCta h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+    margin: 0;
+}
+p.gray{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    /* or 200% */
+    color: #575455;
+}
+#buttonCta{
+    color: #FFFFFF;
+    background: #1F7CFF;
+
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+
+
+}
+#buttonCta:hover{
+    background: #5ea1ff;
+}
+
+#headerImg{
+    margin-left: 42px;
+}
+#headerImg img{
+    border-radius: 50px;
+    width: 100%;
+}
+
+/* Apple slack spotfy */
+
+.headerClientText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #070F18;
+}
+.headerLogo{
+    text-align: center;
+}
+#clients{
+    margin: 50px 0;
+}
+
+h2.red {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #F75C4E;
+    margin: 0;
+}
+h1.black{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+#services p{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+    text-align: center;
+
+    color: #575455;
+    }
+.textCenter{
+    /* margin-top: 30px; */
+    text-align: center;
+}
+
+.textCenter img{
+    margin-top: 61px;
+    margin-bottom: 45px;
+}
+
+.textCenter h3{
+    /* Consultoria */
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #070F18;
+}
+
+/* Form */
+#contactImg img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+#contactForm{
+    margin-left: 75px;
+    
+    text-align: left;
+}
+#contact{
+    margin-top: 100px;
+}
+#contactForm input{
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: none;
+    width: 90%;
+    padding: 10px 15px;
+
+}
+#contactForm button{
+    background: #1F7CFF;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px 45px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#contactForm button:hover{
+ background: #5ea1ff;
+
+}
+#portfolioTitle{
+    margin-top: 150px;
+}
+
+.portfolioImg img{
+    width: 100%;
+}
+
+.portfolioImg{
+    padding: 20px;
+}
+.headerLogo{
+        cursor: pointer;
+    }
+
+footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 42px;
+
+    border-top: 1px solid rgb(160, 160, 160) ;
+    border-top-style: dotted;
+    /* box-shadow: #070f18 0px -1px 5px 0px ; */
+}
+
+footer a, footer {
+    color: rgb(66, 66, 66);
+
+}
+/* PARA CELULARES */
+@media only screen and (max-width: 540px){
+        body{
+    margin: 0;
+    }
+
+    main{
+        margin: 0px 15%;
+    }
+    #menu ul{
+        text-align: center;
+        display: flex;
+        list-style-type: none;
+        margin-bottom: 15px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu li{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    #header{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 42px;
+        text-decoration-line: underline;
+        color: #070F18;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .one{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .apresentation{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+    }
+    .apresentation img{
+        margin-top: 35px;
+    }
+
+    #buttonCta{
+        width: 100%;
+        color: #FFFFFF;
+        background: #1F7CFF;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 25px 10px 25px;
+        text-align: center;
+    }
+    button{
+        width: 100%;
+        height: 60px;
+    }
+
+    #headerImg{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .socialsMedia{
+        gap: 15px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerLogo{
+        cursor: pointer;
+    }
+
+    .myServices-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        flex-direction: column;
+    }
+    .myServices-2 img{
+        margin-bottom: 5px;
+    }
+
+    .form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    }
+    .form img{
+    margin-bottom: 25px;
+    }
+    #contactForm {
+    margin-left: 0;
+    text-align: center;
+    }
+    .portfolio{
+        text-align: center;
+    }
+    
+    .images{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    }
+
+    footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-top: 1px solid rgb(0, 0, 0) ;
+    border-top-style: dotted;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 42px;
+    /* box-shadow: #070f18 0px -1px 5px 0px ; */
+    background-color: rgba(255, 255, 255, 0) ;
+    }
+
+    footer, footer a {
+        color: rgb(0, 0, 0);
+    }
+
+}
+
